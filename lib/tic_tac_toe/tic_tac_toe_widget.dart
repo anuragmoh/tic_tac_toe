@@ -133,7 +133,7 @@ class _TicTacToeWidgetState extends State<TicTacToeWidget> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text("\" $winner \" is Winner!!!"),
+            title: Text("\"$winner\" is Winner!!!"),
             actions: [
               TextButton(
                 child: const Text(AConstants.playAgain),
